@@ -1,0 +1,141 @@
+Project Requirements Check
+Check requirements.txt for any potentially deprecated/vulnerable packages.
++==============================================================================+
+|                                                                              |
+|                               /$$$$$$            /$$                         |
+|                              /$$__  $$          | $$                         |
+|           /$$$$$$$  /$$$$$$ | $$  \__//$$$$$$  /$$$$$$   /$$   /$$           |
+|          /$$_____/ |____  $$| $$$$   /$$__  $$|_  $$_/  | $$  | $$           |
+|         |  $$$$$$   /$$$$$$$| $$_/  | $$$$$$$$  | $$    | $$  | $$           |
+|          \____  $$ /$$__  $$| $$    | $$_____/  | $$ /$$| $$  | $$           |
+|          /$$$$$$$/|  $$$$$$$| $$    |  $$$$$$$  |  $$$$/|  $$$$$$$           |
+|         |_______/  \_______/|__/     \_______/   \___/   \____  $$           |
+|                                                          /$$  | $$           |
+|                                                         |  $$$$$$/           |
+|  by pyup.io                                              \______/            |
+|                                                                              |
++==============================================================================+
+| REPORT                                                                       |
+| checked 9 packages, using free DB (updated once a month)                     |
++==============================================================================+
+| No known security vulnerabilities found.                                     |
++==============================================================================+
+
+Grepping Key-Terms Check
+Check files for any potentially revealing key-terms and their lines.
+From typobot/embed.py, line 5
+b'helpF.set_author(name="Typo Bot",icon_url="https://media.discordapp.net/attachments/744547152272818178/935801553896501248/typologonobg-min.png?width=611&height=563")\n'
+From typobot/embed.py, line 14
+b'  embed.set_author(name="Typo Bot",icon_url="https://media.discordapp.net/attachments/744547152272818178/935801553896501248/typologonobg-min.png?width=611&height=563")\n'
+From typobot/hunt.py, line 8
+b'noArgs.set_author(name="Typo Bot",icon_url="https://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png")\n'
+From typobot/hunt.py, line 11
+b'noIGN.set_author(name="Typo Bot",icon_url="https://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png")\n'
+From typobot/hunt.py, line 14
+b'failed.set_author(name="Typo Bot",icon_url="https://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png")\n'
+From typobot/hunt.py, line 17
+b'success.set_author(name="Typo Bot",icon_url="https://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png")\n'
+From typobot/hunt.py, line 36
+b'    url = "https://account.aq.com/CharPage?id=" + ign\n'
+From typobot/main.py, line 24
+b'  # await client.user.edit(username="Typo Bot")\n'
+From typobot/main.py, line 39
+b'  url = "https://account.aq.com/CharPage?id=" + ign\n'
+From typobot/main.py, line 41
+b'  if user in db.keys():\n'
+From typobot/main.py, line 45
+b'  for check in db.keys():\n'
+From typobot/main.py, line 80
+b'  if user not in db.keys():\n'
+From typobot/main.py, line 88
+b'  url = "https://account.aq.com/CharPage?id=" + ign\n'
+From typobot/main.py, line 104
+b'  for badge in badges.keys():\n'
+From typobot/main.py, line 109
+b'        # db[username]["points"] += points[badge]\n'
+From typobot/main.py, line 116
+b'  for item in classes.keys():\n'
+From typobot/main.py, line 122
+b'  for item in easy.keys():\n'
+From typobot/main.py, line 128
+b'  for item in medium.keys():\n'
+From typobot/main.py, line 134
+b'  for item in hard.keys():\n'
+From typobot/main.py, line 161
+b'  if user not in db.keys():\n'
+From typobot/main.py, line 169
+b'    for check in db.keys():\n'
+From typobot/main.py, line 184
+b'  for badge in badges.keys():\n'
+From typobot/main.py, line 192
+b'  for item in classes.keys():\n'
+From typobot/main.py, line 200
+b'  for item in easy.keys():\n'
+From typobot/main.py, line 208
+b'  for item in medium.keys():\n'
+From typobot/main.py, line 216
+b'  for item in hard.keys():\n'
+From typobot/main.py, line 233
+b'  for user in db.keys():\n'
+From typobot/main.py, line 235
+b'  s_pt = sorted(pt_db, key=pt_db.get, reverse=True)\n'
+From typobot/main.py, line 254
+b'  if user in db.keys():\n'
+From typobot/main.py, line 266
+b'    for user in db.keys():\n'
+From typobot/main.py, line 282
+b'    for check in db.keys():\n'
+From typobot/main.py, line 289
+b"client.run(os.environ['auth_key'])\n"
+From typobot/.git/config, line 8
+b'\turl = https://github.com/winstondarmawan/typo-bot\n'
+From typobot/.git/hooks/fsmonitor-watchman.sample, line 9
+b'# (https://facebook.github.io/watchman/) with git to speed up detecting\n'
+From typobot/.git/logs/HEAD, line 2
+b'0000000000000000000000000000000000000000 82e7972bb028b135a36aa9488c9fb48ad5e50834 Winston Darmawan <z5205439@student.unsw.edu.au> 1650120078 +1000\tclone: from https://github.com/winstondarmawan/typo-bot\n'
+From typobot/.git/logs/refs/heads/master, line 2
+b'0000000000000000000000000000000000000000 82e7972bb028b135a36aa9488c9fb48ad5e50834 Winston Darmawan <z5205439@student.unsw.edu.au> 1650120078 +1000\tclone: from https://github.com/winstondarmawan/typo-bot\n'
+From typobot/.git/logs/refs/remotes/origin/HEAD, line 2
+b'0000000000000000000000000000000000000000 82e7972bb028b135a36aa9488c9fb48ad5e50834 Winston Darmawan <z5205439@student.unsw.edu.au> 1650120078 +1000\tclone: from https://github.com/winstondarmawan/typo-bot\n'
+From typobot/.git/objects/6e/3299f49540860d9dff02e82dc09b86c1fea855, line 53
+b'\xe5D\xe2\x183\xd24\xe4keYm\xc7\xcdt>]\x9c\xdd}\xda\xdc\x8e\xfb\xef\xb0\n'
+From typobot/__pycache__/delete.cpython-38.pyc, line 4
+b'd\x04d\x05\x8d\x03Z\x04e\x04j\x03d\x06d\x07d\x08\x8d\x02\x01\x00d\x01S\x00)\x0b\xe9\x00\x00\x00\x00Nz\x08Success!z(You have been deleted from the database.i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_urlz\x06Error!zDYou are not currently registered, so how can you be deleted? STOOPID)\x05\xda\x07discord\xda\x05Embed\xda\n'
+From typobot/__pycache__/deleteo.cpython-38.pyc, line 3
+b'\x00\x00\x00\x00\xf657a\xd2\x00\x00\x00\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00@\x00\x00\x00s\x18\x00\x00\x00d\x00d\x01l\x00m\x01Z\x01\x01\x00d\x02d\x03\x84\x00Z\x02d\x04S\x00)\x05\xe9\x00\x00\x00\x00)\x01\xda\x02dbc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00C\x00\x00\x00s@\x00\x00\x00d\x01\xa0\x00|\x00\xa1\x01}\x01t\x01\xa0\x02\xa1\x00D\x00](}\x02t\x01|\x02\x19\x00d\x02\x19\x00\xa0\x03\xa1\x00|\x01\xa0\x03\xa1\x00k\x02r\x12t\x01|\x02=\x00\x01\x00d\x03S\x00q\x12d\x00S\x00)\x04N\xfa\x01 \xda\x03ignz\x13Target neutralised.)\x04\xda\x04joinr\x02\x00\x00\x00\xda\x04keys\xda\x05lower)\x03\xda\x04argsr\x04\x00\x00\x00\xda\x05check\xa9\x00r\n'
+From typobot/__pycache__/embed.cpython-38.pyc, line 4
+b'd\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\rd\x0ed\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x0fd\x10d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x11d\x12d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x13d\x14d\x0bd\x0c\x8d\x03\x01\x00d\x15d\x16\x84\x00Z\x05d\x01S\x00)\x17\xe9\x00\x00\x00\x00Nz\x18Leaderboard Bot Commandsz!All the commands for the TypoBot.\xe9\xffY\x00\x00\xa9\x03\xda\x05title\xda\x0bdescription\xda\x05color\xfa\x08Typo Bot\xfaxhttps://media.discordapp.net/attachments/744547152272818178/935801553896501248/typologonobg-min.png?width=611&height=563\xa9\x02\xda\x04name\xda\x08icon_urlz\x15```*register [ign]```z\x1eRegisters your IGN to the bot.F)\x03r\n'
+From typobot/__pycache__/fail.cpython-38.pyc, line 5
+b' ```-t register [ign]```i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_urlz\x0fUser not found.)\x05\xda\x07discord\xda\x05Embed\xda\x04fail\xda\n'
+From typobot/__pycache__/help.cpython-38.pyc, line 4
+b'd\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\rd\x0ed\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x0fd\x10d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x11d\x12d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x13d\x14d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x15d\x16d\x0bd\x0c\x8d\x03\x01\x00d\x01S\x00)\x17\xe9\x00\x00\x00\x00Nz\x18Leaderboard Bot Commandsz!All the commands for the TypoBot.i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_urlz\x17```-t register [ign]```z\x1eRegisters your IGN to the bot.F)\x03r\x05\x00\x00\x00\xda\x05value\xda\x06inlinez\x0f```-t update```z_Checks your character page and updates the farmables. \n'
+From typobot/__pycache__/helpF.cpython-38.pyc, line 4
+b'd\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\rd\x0ed\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x0fd\x10d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x11d\x12d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x13d\x14d\x0bd\x0c\x8d\x03\x01\x00e\x02j\x04d\x15d\x16d\x0bd\x0c\x8d\x03\x01\x00d\x01S\x00)\x17\xe9\x00\x00\x00\x00Nz\x18Leaderboard Bot Commandsz!All the commands for the TypoBot.i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_urlz\x17```-t register [ign]```z\x1eRegisters your IGN to the bot.F)\x03r\x05\x00\x00\x00\xda\x05value\xda\x06inlinez\x0f```-t update```z_Checks your character page and updates the farmables. \n'
+From typobot/__pycache__/hunt.cpython-38.pyc, line 10
+b'```$f hunt [ign]```i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_urlz\x1eThat character does not exist!z\x12Drip check FAILED!z,You don\'t have everything! Go back and farm!)\x02r\x04\x00\x00\x00r\x05\x00\x00\x00z\x15Drip Check Passed! B)zGCongratulations! You have gathered enough drip to please the Drip King.z\x12King Klunk\'s Crownz\x14Black Pirate Costumez\rRockRune Capez\rTreasure Pilec\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x05\x00\x00\x00C\x00\x00\x00s\xe2\x00\x00\x00t\x00|\x01\x83\x01d\x01k\x02r\x10t\x01S\x00d\x02\xa0\x02|\x01\xa1\x01}\x02d\x03|\x02\x17\x00}\x03t\x03\x83\x00}\x04|\x04\xa0\x04d\x04\xa1\x01\x01\x00|\x04\xa0\x04d\x05\xa1\x01\x01\x00t\x05j\x06|\x04d\x06\x8d\x01}\x05|\x05\xa0\x07|\x03\xa1\x01\x01\x00|\x05\xa0\x08d\x07\xa1\x01}\x06|\x06D\x00]"}\x07d\x08|\x07\xa0\td\t\xa1\x01k\x06r`|\x05\xa0\n'
+From typobot/__pycache__/hunt.cpython-38.pyc, line 16
+b'\xa1\x00\x01\x00t\x12S\x00)\rNr\x01\x00\x00\x00\xfa\x01 z#https://account.aq.com/CharPage?id=z\x0c--no-sandboxz\x17--disable-dev-shm-usage)\x01\xda\x07optionsz\x04mt-2z\n'
+From typobot/__pycache__/leaderboard.cpython-38.pyc, line 4
+b'\x8d\x03}\x06|\x06j\td\x0bd\x0cd\r\x8d\x02\x01\x00|\x06S\x00)\x0eN\xda\x06pointsT)\x02\xda\x03key\xda\x07reverse\xe9\x01\x00\x00\x00\xda\x00z\x1e\n'
+From typobot/__pycache__/leaderboard.cpython-38.pyc, line 5
+b'**{}.** {} **|** {} *[{} pt]*\xda\x03ignZ\x0bLeaderboardi\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_url)\n'
+From typobot/__pycache__/leaderboard.cpython-38.pyc, line 6
+b'r\x02\x00\x00\x00\xda\x04keys\xda\x06sorted\xda\x03get\xda\x06format\xda\x08get_user\xda\x03int\xda\x07discord\xda\x05Embed\xda\n'
+From typobot/__pycache__/list.cpython-38.pyc, line 10
+b'd\x0bd\x0c\x8d\x02\x01\x00|\tS\x00)\x14Nr\x01\x00\x00\x00\xfa\x01 \xda\x03ign\xda\x06badges\xda\x05itemsz\x06Error!z\x1dThere is nothing to be found!i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_url\xda\x00z\n'
+From typobot/__pycache__/list.cpython-38.pyc, line 16
+b"**Total Points:** {}r\x03\x00\x00\x00z\x0e{}'s Farmables)\r\xda\x03len\xda\x04joinr\x02\x00\x00\x00\xda\x04keys\xda\x05lowerr\x05\x00\x00\x00r\x04\x00\x00\x00\xda\x07discord\xda\x05Embed\xda\n"
+From typobot/__pycache__/list.cpython-38.pyc, line 18
+b"\xda\x08username\xda\x04argsZ\x06c_userr\x07\x00\x00\x00\xda\x05check\xda\x05blank\xda\x04descZ\x05badge\xda\x04item\xda\x04list\xa9\x00r \x00\x00\x00\xfa'/home/runner/Farming-Leaderbard/list.py\xda\x07getList\x06\x00\x00\x00s8\x00\x00\x00\x00\x02\x04\x01\x0c\x01\n"
+From typobot/__pycache__/register.cpython-38.pyc, line 10
+b'```$f register [ign]```\xe9\xffY\x00\x00\xa9\x03\xda\x05title\xda\x0bdescription\xda\x05color\xfa\x08Typo Bot\xfachttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png\xa9\x02\xda\x04name\xda\x08icon_urlz\x1eThat character does not exist!z%This IGN has already been registered.z\x1bYou are already registered!c\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\n'
+From typobot/__pycache__/register.cpython-38.pyc, line 13
+b'\xa1\x01k\x06r\x9e|\x06\xa0\x0f\xa1\x00\x01\x00t\x10\x02\x00\x01\x00S\x00q\x9e|\x02g\x00g\x00d\x01d\x0b\x9c\x04t\x03|\x00<\x00t\x11j\x12d\x0cd\r\xa0\x13|\x02\xa1\x01d\x0ed\x0f\x8d\x03}\t|\tj\x14d\x10d\x11d\x12\x8d\x02\x01\x00|\tS\x00d\x01S\x00)\x13Nr\x01\x00\x00\x00\xfa\x01 z#https://account.aq.com/CharPage?id=\xda\x03ignz\x0c--no-sandboxz\x17--disable-dev-shm-usage)\x01\xda\x07optionsz\x04mt-2z\n'
+From typobot/__pycache__/register.cpython-38.pyc, line 15
+b'\x00\x00\x00r\x0b\x00\x00\x00r\x0c\x00\x00\x00)\x15\xda\x03len\xda\tregNoArgs\xda\x04joinr\x02\x00\x00\x00\xda\x04keys\xda\rregAlreadyReg\xda\x05lower\xda\x0bregTakenIGNr\x04\x00\x00\x00\xda\x0cadd_argumentr\x03\x00\x00\x00Z\x06Chrome\xda\x03getZ\x1bfind_elements_by_class_nameZ\rget_attribute\xda\x04quit\xda\x08regNoIGN\xda\x07discord\xda\x05Embed\xda\x06format\xda\n'
+From typobot/__pycache__/update.cpython-38.pyc, line 15
+b'\x19\x007\x00}\x07\x90\x01q\x00t\x00|\x00\x19\x00d\x0e\x05\x00\x19\x00|\x077\x00\x03\x00<\x00t\x12|\x06\x83\x01d\x07k\x03\x90\x01r\xa6d\x0f}\x0bd\x10}\x0c|\x06D\x00]\x1a}\r|\x0cd\x11\xa0\x13|\rt\x10|\r\x19\x00\xa1\x027\x00}\x0c\x90\x01qz|\x0cd\x12\xa0\x13|\x07\xa1\x017\x00}\x0cn\x08d\x13}\x0bd\x14}\x0ct\x14j\x15|\x0b|\x0cd\x15d\x16\x8d\x03}\x0e|\x0ej\x16d\x17d\x18d\x19\x8d\x02\x01\x00|\x04\xa0\x17\xa1\x00\x01\x00|\x0eS\x00)\x1aN\xda\x03ignz#https://account.aq.com/CharPage?id=z\x0c--no-sandboxz\x17--disable-dev-shm-usage)\x01\xda\x07optionsz\x06btn-xsr\x01\x00\x00\x00\xe9\x01\x00\x00\x00Z\x0ebadgesRendered\xda\touterHTMLr\x05\x00\x00\x00Z\x11inventoryRenderedr\x06\x00\x00\x00r\x07\x00\x00\x00z+Farmables found! You are truly a profarmer.z)The following farmables have been added:\n'
+From typobot/__pycache__/update.cpython-38.pyc, line 19
+b'{} points have been added to your account.z\x1bYour account is up to date.z\x13Go farm some items!i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_url)\x18r\x04\x00\x00\x00\xda\x04keysr\x08\x00\x00\x00r\x03\x00\x00\x00\xda\x0cadd_argumentr\x02\x00\x00\x00\xda\x06Chrome\xda\x03get\xda\x1bfind_elements_by_class_name\xda\x05click\xda\x04time\xda\x05sleep\xda\x12find_element_by_id\xda\rget_attributer\x05\x00\x00\x00\xda\x06appendr\x07\x00\x00\x00r\x06\x00\x00\x00\xda\x03len\xda\x06format\xda\x07discord\xda\x05Embed\xda\n'
+From typobot/__pycache__/update.cpython-38.pyc, line 19
+b'{} points have been added to your account.z\x1bYour account is up to date.z\x13Go farm some items!i\xffY\x00\x00)\x03\xda\x05title\xda\x0bdescription\xda\x05colorz\x08Typo Botzchttps://media.discordapp.net/attachments/744547152272818178/882878296696692736/Typo_Logo_Circle.png)\x02\xda\x04name\xda\x08icon_url)\x18r\x04\x00\x00\x00\xda\x04keysr\x08\x00\x00\x00r\x03\x00\x00\x00\xda\x0cadd_argumentr\x02\x00\x00\x00\xda\x06Chrome\xda\x03get\xda\x1bfind_elements_by_class_name\xda\x05click\xda\x04time\xda\x05sleep\xda\x12find_element_by_id\xda\rget_attributer\x05\x00\x00\x00\xda\x06appendr\x07\x00\x00\x00r\x06\x00\x00\x00\xda\x03len\xda\x06format\xda\x07discord\xda\x05Embed\xda\n'

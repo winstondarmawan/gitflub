@@ -1,0 +1,90 @@
+Project Requirements Check
+Check requirements.txt for any potentially deprecated/vulnerable packages.
+
+requirements.txt not found.
+Grepping Key-Terms Check
+Check files for any potentially revealing key-terms and their lines.
+From hackathon2021/.git/config, line 1
+b'\turl = https://github.com/winstondarmawan/yellowblocks-hackathon-2021\n'
+From hackathon2021/.git/hooks/fsmonitor-watchman.sample, line 1
+b'# (https://facebook.github.io/watchman/) with git to speed up detecting\n'
+From hackathon2021/.git/logs/HEAD, line 1
+b'0000000000000000000000000000000000000000 497f35155631f06352620c9c352d1bede32c6fd0 Winston Darmawan <z5205439@student.unsw.edu.au> 1650112717 +1000\tclone: from https://github.com/winstondarmawan/yellowblocks-hackathon-2021\n'
+From hackathon2021/.git/logs/refs/heads/main, line 1
+b'0000000000000000000000000000000000000000 497f35155631f06352620c9c352d1bede32c6fd0 Winston Darmawan <z5205439@student.unsw.edu.au> 1650112717 +1000\tclone: from https://github.com/winstondarmawan/yellowblocks-hackathon-2021\n'
+From hackathon2021/.git/logs/refs/remotes/origin/HEAD, line 1
+b'0000000000000000000000000000000000000000 497f35155631f06352620c9c352d1bede32c6fd0 Winston Darmawan <z5205439@student.unsw.edu.au> 1650112717 +1000\tclone: from https://github.com/winstondarmawan/yellowblocks-hackathon-2021\n'
+From hackathon2021/yellowblocks-app/README.md, line 1
+b'This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n'
+From hackathon2021/yellowblocks-app/README.md, line 2
+b'Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\n'
+From hackathon2021/yellowblocks-app/README.md, line 3
+b'See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.\n'
+From hackathon2021/yellowblocks-app/README.md, line 4
+b'See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.\n'
+From hackathon2021/yellowblocks-app/README.md, line 5
+b'You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).\n'
+From hackathon2021/yellowblocks-app/README.md, line 6
+b'To learn React, check out the [React documentation](https://reactjs.org/).\n'
+From hackathon2021/yellowblocks-app/README.md, line 7
+b'This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)\n'
+From hackathon2021/yellowblocks-app/README.md, line 8
+b'This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)\n'
+From hackathon2021/yellowblocks-app/README.md, line 9
+b'This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)\n'
+From hackathon2021/yellowblocks-app/README.md, line 10
+b'This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)\n'
+From hackathon2021/yellowblocks-app/README.md, line 11
+b'This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)\n'
+From hackathon2021/yellowblocks-app/README.md, line 12
+b'This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)\n'
+From hackathon2021/yellowblocks-app/public/index.html, line 1
+b'  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"\n'
+From hackathon2021/yellowblocks-app/public/index.html, line 2
+b"      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n"
+From hackathon2021/yellowblocks-app/public/robots.txt, line 1
+b'# https://www.robotstxt.org/robotstxt.html\n'
+From hackathon2021/yellowblocks-app/src/App.css, line 1
+b'@keyframes App-logo-spin {\n'
+From hackathon2021/yellowblocks-app/src/index.js, line 1
+b'// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\n'
+From hackathon2021/yellowblocks-app/src/logo.svg, line 1
+b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3"><g fill="#61DAFB"><path d="M666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9V78c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6V78.5c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zM421.2 430c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24 4.7 8 9.5 15.8 14.4 23.4zM420.7 163c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6 0-15.7 22.9-35.6 58.3-50.6 8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zM310 490c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6zM320.8 78.4z"/><circle cx="420.9" cy="296.5" r="45.7"/><path d="M520.5 78.1z"/></g></svg>'
+From hackathon2021/yellowblocks-app/src/setupTests.js, line 1
+b'// learn more: https://github.com/testing-library/jest-dom\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 1
+b'            <Tabs defaultActiveKey="1" onChange={handleTabChange}>\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 2
+b'                <TabPane tab="Teacher" key="1">\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 3
+b'                        //  actions={[<span key="comment-nested-reply-to">Reply to</span>]}\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 4
+b'                <TabPane tab="Specialist" key="2">\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 5
+b'                         actions={[<span key="comment-nested-reply-to">Reply to</span>]}\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 6
+b'                <TabPane tab="Parent" key="3">\n'
+From hackathon2021/yellowblocks-app/src/components/CommentSection.jsx, line 7
+b'                         actions={[<span key="comment-nested-reply-to">Reply to</span>]}\n'
+From hackathon2021/yellowblocks-app/src/components/SideBar.jsx, line 1
+b'          defaultSelectedKeys={["1"]}\n'
+From hackathon2021/yellowblocks-app/src/components/SideBar.jsx, line 2
+b'          defaultOpenKeys={["sub1"]}\n'
+From hackathon2021/yellowblocks-app/src/components/SideBar.jsx, line 3
+b'          <Menu.Item key="1" icon={<HomeOutlined />}>\n'
+From hackathon2021/yellowblocks-app/src/components/SideBar.jsx, line 4
+b'          <Menu.Item key="2" icon={<UserOutlined />}>\n'
+From hackathon2021/yellowblocks-app/src/components/SideBar.jsx, line 5
+b'          <Menu.Item key="3" icon={<ContainerOutlined />}>\n'
+From hackathon2021/yellowblocks-app/src/components/TeachingStrategies.jsx, line 1
+b'      <Menu.Item key="1">1st item</Menu.Item>\n'
+From hackathon2021/yellowblocks-app/src/components/TeachingStrategies.jsx, line 2
+b'      <Menu.Item key="2">2nd item</Menu.Item>\n'
+From hackathon2021/yellowblocks-app/src/components/TeachingStrategies.jsx, line 3
+b'      <Menu.Item key="3">3rd item</Menu.Item>\n'
+From hackathon2021/yellowblocks-app/src/components/TeachingStrategies.jsx, line 4
+b'              <Panel header={type[s.type]} key={idx}>\n'
+From hackathon2021/yellowblocks-app/src/data/learnabilitylogowhite.png, line 1
+b'\x00\x00\x00\rIHDR\x00\x00\x02\xaa\x00\x00\x01\x04\x08\x06\x00\x00\x00\xe0{\x16i\x00\x00\x00\tpHYs\x00\x00.#\x00\x00.#\x01x\xa5?v\x00\x00\x0c\x10iTXtXML:com.adobe.xmp\x00\x00\x00\x00\x00<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c145 79.163499, 2018/08/13-16:40:22        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmp:CreatorTool="Adobe Photoshop CC 2019 (Macintosh)" xmp:CreateDate="2021-07-17T19:56:01+10:00" xmp:MetadataDate="2021-07-18T08:53:03+10:00" xmp:ModifyDate="2021-07-18T08:53:03+10:00" photoshop:ColorMode="3" photoshop:ICCProfile="sRGB IEC61966-2.1" dc:format="image/png" xmpMM:InstanceID="xmp.iid:ae5b5b9c-629f-473b-9fc5-779fcb24b584" xmpMM:DocumentID="adobe:docid:photoshop:c28dda8a-d622-9e47-b609-6bdce9ead945" xmpMM:OriginalDocumentID="xmp.did:bacc84f6-2c1e-47d9-9c9b-c481f0830a0f" tiff:Orientation="1" tiff:XResolution="3000000/10000" tiff:YResolution="3000000/10000" tiff:ResolutionUnit="2" exif:ColorSpace="1" exif:PixelXDimension="2274" exif:PixelYDimension="868"> <photoshop:TextLayers> <rdf:Bag> <rdf:li photoshop:LayerName="learn" photoshop:LayerText="learn"/> <rdf:li photoshop:LayerName="ability" photoshop:LayerText="ability"/> </rdf:Bag> </photoshop:TextLayers> <photoshop:DocumentAncestors> <rdf:Bag> <rdf:li>xmp.did:2f4f7ded-4421-f44f-9712-fd59a3e385db</rdf:li> </rdf:Bag> </photoshop:DocumentAncestors> <xmpMM:History> <rdf:Seq> <rdf:li stEvt:action="created" stEvt:instanceID="xmp.iid:bacc84f6-2c1e-47d9-9c9b-c481f0830a0f" stEvt:when="2021-07-17T19:56:01+10:00" stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)"/> <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:d12a3fb7-c36f-4688-9cfc-788a6bfb802c" stEvt:when="2021-07-17T19:57:11+10:00" stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)" stEvt:changed="/"/> <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:9ee9ee90-11ea-44c2-ad5b-9ef38fb77776" stEvt:when="2021-07-18T08:53:03+10:00" stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)" stEvt:changed="/"/> <rdf:li stEvt:action="converted" stEvt:parameters="from application/vnd.adobe.photoshop to image/png"/> <rdf:li stEvt:action="derived" stEvt:parameters="converted from application/vnd.adobe.photoshop to image/png"/> <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:ae5b5b9c-629f-473b-9fc5-779fcb24b584" stEvt:when="2021-07-18T08:53:03+10:00" stEvt:softwareAgent="Adobe Photoshop CC 2019 (Macintosh)" stEvt:changed="/"/> </rdf:Seq> </xmpMM:History> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:9ee9ee90-11ea-44c2-ad5b-9ef38fb77776" stRef:documentID="adobe:docid:photoshop:a3840dcf-82ed-5d44-82f3-261cedc85d2d" stRef:originalDocumentID="xmp.did:bacc84f6-2c1e-47d9-9c9b-c481f0830a0f"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>`\xb9R\xd1\x00\x00:\xfcIDATx\x9c\xed\xddy|\xdcU\xbd\xff\xf1\xd7Lf\xc9\xde\xa6MW\xbaB\x0be\x15(P\xe2\x15\x02(\xab\x82(DQ\x14\x14\\\xae\x1b\xf7\xfe\xae^\xb7\xab"\x8a\x17W\xc4\xed\xa2"\x8a"k@vP\xf6 \x12\x90\xb5eki\xe9\xbe7K\x9bfOf\xe6\xf7\xc7\x99@\x88\xcd\xfe=\xdf\xf3\xfd\xce\xbc\x9f\x8f\xc7<\xa0\xe9\xe4s>\xf3M\x9a|\xe6\x9c\xf3\xfd\x9cH&\x93a0\r\r\rE\xc0e\x83>a|6\x01?\xb2\x14[D$\xd4*++]\xa7 "\xe2\\d\x98Bu"\xd0li\xec\xa5\xc0\xa1\x96b\x8b\x88\x84\x9a\n'
+From hackathon2021/yellowblocks-app/src/data/teacher.jpeg, line 1
+b'}\xc2t\x113Kl(\x92\x81t\xe9\x9c\x89a\x1bB>b=i\xf6\x0fD\xf60w\x9ePe\xa6\x89Z\xc03\xbc\x0fZAd\xc3\x84\xb0\xc8Key\xd6\x9d\x14\x12t\x07\xda\x97}\x00\xdb\xebe\x82\xa4\xb0\x026\x92\x0c\x00:\xcd>?!\x7f\x05e\xc6)n\xd9\x86\x10\\W\xf1\x91\t\x9f\xd6\x9a_ Dr\xe2\xf6\xf4\xf7eP\x15\xa9\x03AE\xd0$ \xb0\x86@mK \x9d\xe3aK}\x80J-\xa4\xff\x00\xc8[\xa4\x7f\x12\x8cQ_!\xfd\x11\xdfU\xca\xb2\xa1M\xa1\x94\xef\xcbJi%\xd0\xac\x8a\xe2\xc0\x94\x87s\x9eQ\xadW@\x06\xd0\xfa\x84\xa5\xb0|\xb2\xd2\xb1\x12\xd9L\xa8\xa9mj7 \x10SRQu\x85\xdd\xa1\xa7[\xf02\xa0\xe1\xd7:41\xc8\xff\x00|\xeal\xa1\xbc\x7f\x08/\xa5X\x80BQ\x9d~\x10 N\x9a\x93M0\xa34\xb0\xe7\xca\xd4\x04\xa7r:\xd5Y\x9bB\x9b\xef\x14#\xbc\x98\xe54\xc48\x92B\x80Q#\xd6\x81\xa1\xf4\xa7\xc5\x98+C\xb8\x14\xacc\xed\xb8S)\x00\x19\xeau\xa5_\x03\x1ej\xedm\xbc\x85\xc0\x94\x9ds\t\x04t#\xa5\'\xb5\xb1\xadtw.\xc7\xfbw\xc68>\xf1\x8b\x06\xae\x92\xdd\xa2\xd4\x11\xf6w\xbcl$\x13\xae\x9b\x81\xe8t\xacZq\xda4MIl\xf7\x87e\xfd\xb0a<Ain\xfb\x18\x90j\xe9\'\xec\xeeY\xdc\xba\x14\x167Or\xff\x00\xde\xe7\x01|\xa4i\xb9\xd6\x13\xe3\xb3\x19\xc3Gr\xc31\x1b|F\xd97\x16\xee\x05\xa5D\x89\xe6\x08\xdc\x11\xc8\x83\xb8\xae\x94\xd3\xda9\xea\xbb\'$\xc8\x9aLa\xf9\xd0\x00\x83\xca\x80\x04i\xe7G@\x084\x00"5\xa0\x03\x9eF\x95\x006\xa7\xd8\x02)\x00"\x98\x03n{R\x00\x8fY\xa6\x80#@\x04N\x94\x00\xd8\xa4\x01\xfd\xeeT\x00cI\x93@\x07:\xd0\x01\x8a\x00<\xd1\xa5\x00\x18U\x00\x19>t\x00\x02\xb4\xa0v\x1c\x99\xa0A\xe6\xa0`\xce(\x00\xc2\x86\xf4\x003y\xd2\x0b\x0eG\xb50\x04\x8et\x00$\x1a\x06\x11\x02\x81\x08")\xa6\x14&\'j,C7WV\xf6l\xad\xeb\x87\xd0\xd3m\x82\xa5-j\x80\x00\xdeI\xda\x90\xd2<\xb1\xf19\xf1\x89\x82\xf6^\xcb\xbc=\x80-\x17\xb8\xe2\x9b\x94Z\x91\xe0bG\x85\xcb\x8e\x9dC[\x9d\xd5\x13\x14\x9bE\xa8\xbfG\xcdN2\xe3>&\xed\x0b\x1c\xba\xe2\x1e"\xc5_\xbd\xbc\xbbp\xad\xc7\x9dQ&:\x0e\x83\xa0\x1a\n'
