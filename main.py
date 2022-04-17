@@ -50,7 +50,7 @@ if __name__ == "__main__":
     # Check static files for key-terms.
     append("reports/{}-report.txt".format(sys.argv[2]), "Grepping Key-Terms Check\nCheck files for any potentially revealing key-terms and their lines.")
     print("Starting static code analysis...")
-    terms = ["authentication", "key", "secret", "username", "password", "vulnerable", "http://", "https://"]
+    terms = ["authentication", "key", "secret", "username", "password", "vulnerable", "http://", "https://", "hash", "md5", "sha-1", "sha-2", "hmac"]
     for file in result:
         if path.isfile(file) and 'yarn.lock' not in file and 'package-lock.json' not in file:
             read_file = open(file, 'rb')
